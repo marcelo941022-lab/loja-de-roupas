@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Roupas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .produto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .produto h2 {
+      font-size: 18px;
+      margin: 10px 0 5px 0;
+    }
+    .produto p {
+      margin: 5px 0;
+      color: #333;
+    }
+    .produto button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .produto button:hover {
+      background-color: #ff85c1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Loja de Roupas Teste</h1>
+  <p>Confira nossas novidades!</p>
+</header>
+
+<div class="produtos">
+  <div class="produto">
+    <img src="https://via.placeholder.com/200x200?text=Camiseta" alt="Camiseta">
+    <h2>Camiseta Rosa</h2>
+    <p>R$50,00</p>
+    <button>Comprar</button>
+  </div>
+  <div class="produto">
+    <img src="https://via.placeholder.com/200x200?text=Calça" alt="Calça">
+    <h2>Calça Jeans</h2>
+    <p>R$120,00</p>
+    <button>Comprar</button>
+  </div>
+  <div class="produto">
+    <img src="https://via.placeholder.com/200x200?text=Vestido" alt="Vestido">
+    <h2>Vestido Floral</h2>
+    <p>R$150,00</p>
+    <button>Comprar</button>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Loja de Roupas Teste
+</footer>
+
+</body>
+</html>
